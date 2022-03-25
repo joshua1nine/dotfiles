@@ -1,0 +1,92 @@
+{
+	// Editor
+	"editor.fontSize": 18,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 1,
+	"editor.fontLigatures": "'calt', 'ss01'",
+	"editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.wordWrap": "on",
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"workbench.editor.showTabs": true,
+	"editor.rename.enablePreview": false,
+	"editor.bracketPairColorization.enabled": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"window.zoomLevel": 1,
+	"workbench.iconTheme": "bearded-icons",
+
+	// Files
+	"files.exclude": {
+		"**/node_modules": true,
+		"**/package-lock.json": true
+	},
+
+	// Explorer
+	"explorer.compactFolders": false,
+
+	// Git
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+
+	// Prettier
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.jsxBracketSameLine": true,
+
+	// Remote
+	"remote.SSH.remotePlatform": {
+		"cpn-spider": "linux",
+		"cpn-espike": "linux"
+	},
+
+	// CSS | JS | TS
+	"css.validate": false,
+	"tailwindCSS.emmetCompletions": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"thunder-client.codeSnippetLanguage": "js-fetch",
+
+	// Terminal
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.integrated.tabs.showActions": "always",
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.cursorBlinking": true,
+
+	// Vim
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": false,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["<C-n>"],
+			"commands": [":nohl"]
+		},
+		{
+			"before": ["H"],
+			"after": ["^"]
+		},
+		{
+			"before": ["L"],
+			"after": ["$"]
+		},
+		{
+			"before": ["K"],
+			"after": ["<C-u>"]
+		},
+		{
+			"before": ["J"],
+			"after": ["<C-d>"]
+		}
+	]
+}
