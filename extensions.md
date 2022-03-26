@@ -12,5 +12,5 @@
 - Sanity.io
 - Sanity.io snippets
 - Tailwind Css IntelliSense
-- env-cmd-file-syntax
+- ENV
 - ES7+ React/Redux/React-Native snippets
