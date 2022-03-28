@@ -24,6 +24,8 @@
 	},
 	"window.zoomLevel": 1,
 	"workbench.iconTheme": "bearded-icons",
+	"workbench.list.keyboardNavigation": "simple",
+	"workbench.list.automaticKeyboardNavigation": false,
 
 	// Files
 	"files.exclude": {
