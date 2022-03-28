@@ -96,6 +96,10 @@
 		{
 			"before": ["<Enter>"],
 			"after": ["o", "<Esc>"]
+		},
+		{
+			"before": ["<Backspace>"],
+			"after": ["d", "d"]
 		}
 	],
 	"vim.insertModeKeyBindingsNonRecursive": [
