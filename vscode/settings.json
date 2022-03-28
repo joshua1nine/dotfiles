@@ -3,7 +3,7 @@
 	"editor.fontSize": 18,
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
-	"editor.tabSize": 1,
+	"editor.tabSize": 2,
 	"editor.fontLigatures": "'calt', 'ss01'",
 	"editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -66,7 +66,10 @@
 
 	// Vim
 	"vim.useSystemClipboard": true,
-	"vim.useCtrlKeys": false,
+	"vim.useCtrlKeys": true,
+	"vim.handleKeys": {
+		"<C-w>": false
+	},
 	"vim.normalModeKeyBindingsNonRecursive": [
 		{
 			"before": ["<C-n>"],
@@ -87,6 +90,20 @@
 		{
 			"before": ["J"],
 			"after": ["<C-d>"]
+		},
+		{
+			"before": ["<Enter>"],
+			"after": ["o", "<Esc>"]
+		}
+	],
+	"vim.insertModeKeyBindingsNonRecursive": [
+		{
+			"before": ["<C-l>"],
+			"after": ["<right>"]
+		},
+		{
+			"before": ["<C-h>"],
+			"after": ["<left>"]
 		}
 	]
 }
